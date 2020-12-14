@@ -1,6 +1,6 @@
-import  React ,  {  useState  }  from  'react' 
-import  {  TimeSplit  }  from  './typings/global' 
-import  {  tick ,  getTwoDaysFromNow  }  from  './utils/time'
+import  React ,  {  useState  }  from  'react';
+import  {  TimeSplit  }  from  './typings/global';
+import  {  tick ,  getTwoDaysFromNow  }  from  './utils/time';
 
 interface CountdownProps {
   targetDate: string
